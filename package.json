@@ -1,12 +1,14 @@
 {
   "name": "monode-serverless",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "This contains some basic libraries for using Mondoe with the serverless framework.",
-  "main": "CloudType.ts",
+  "main": "dist/CloudType.js",
+  "types": "dist/CloudType.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "melchiah-mauck",
+  "repository": "https://github.com/Project-Monode/monode-serverless",
   "license": "ISC",
   "dependencies": {
     "aws-sdk": "^2.1021.0"
