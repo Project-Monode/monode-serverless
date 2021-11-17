@@ -13,3 +13,7 @@ export const CloudType = {
     return args;
   }
 }
+
+export const buildResourceName = function(partialName: string) {
+  return `${process.env.service}-${process.env.stage}-${partialName}`;
+}
