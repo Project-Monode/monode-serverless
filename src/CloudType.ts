@@ -15,5 +15,5 @@ export const CloudType = {
 }
 
 export const buildResourceName = function(partialName: string) {
-  return `${process.env.service}-${process.env.stage}-${partialName}`;
+  return `${process.env.service?.toLowerCase()}-${process.env.stage?.toLowerCase()}-${partialName.toLowerCase()}`;
 }
