@@ -2,7 +2,7 @@
 Monode is an infastructure as code framework for configuring cloud services in a TypeScript project. This libarary in particular provides the nessecary dependencies for a Monode project that exports to a [serverless framework](https://www.serverless.com/) based project.
 
 ## Installation
-This library should only be installed using the [Monode cli](https://www.npmjs.com/package/monode-cli)
+This library should only be installed using the [Monode CLI](https://www.npmjs.com/package/monode-cli)
 
 ## Usage
 ### Cloud Component Types
@@ -41,5 +41,5 @@ To define a new cloud component instance:
 When you run `$ mnd compile` or `$ monode compile` in your Monode project, Monode will analyze the cloud componet types and instances, and export their config and code to the sepcified `serverless.json` file.
 
 ## Dependencies
-  - This library should be installed and compiled using the [Monode cli](https://www.npmjs.com/package/monode-cli).
+  - This library should be installed and compiled using the [Monode CLI](https://www.npmjs.com/package/monode-cli).
   - This library should be used with the [serverless framework](https://www.serverless.com/).

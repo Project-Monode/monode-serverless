@@ -1,6 +1,6 @@
 {
   "name": "monode-serverless",
-  "version": "0.1.8",
+  "version": "0.1.10",
   "description": "This contains some basic libraries for using Mondoe with the serverless framework.",
   "main": "dist/CloudType.js",
   "types": "dist/CloudType.d.ts",
