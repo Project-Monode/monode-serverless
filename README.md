@@ -36,7 +36,7 @@ defineNew(args: <argtype>) {
 Here, the functions entries will be translated to serverless function enteries, and the resources entries will be translated to serverless/CloudFormation resoruce entries. Feel free to explore the example cloud component types.
 
 ### Compiling
-When you run `$ mnd compile` or `$ monode compile` in your Monode project, Monode will analyze the cloud componet types and instances, and export their config and code to the sepcified `serverless.json` file.
+When you run `$ mnd compile` or `$ monode compile` in your Monode project, Monode will analyze the cloud componet types and instances, and export their config and code to the sepcified serverless project.
 
 ## Dependencies
   - This library should be installed and compiled using the [Monode CLI](https://www.npmjs.com/package/monode-cli).
